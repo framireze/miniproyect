@@ -1,12 +1,11 @@
 import { Injectable } from '@nestjs/common';
-import { CreateV1Dto } from './dto/create-v1.dto';
-import { UpdateV1Dto } from './dto/update-v1.dto';
+import { CreateOposicionDto } from './dto/createOposicion.dto';
 
 const mockups = require('./mockups/mockups');
 
 @Injectable()
 export class V1Service {
-  getExpOposicion(createV1Dto: CreateV1Dto) {
+  getExpOposicion() {
     return  mockups.getExpOposicionMockup;
   }
 
@@ -18,11 +17,11 @@ export class V1Service {
     return mockups.regionesMockup;
   }
 
-  update(id: number, updateV1Dto: UpdateV1Dto) {
-    return `This action updates a #${id} v1`;
+  getComunas(id: number) {
+    return mockups.comunasMockup;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} v1`;
+  createOposicion(codExpediente: string, body: CreateOposicionDto) {
+    return mockups.responseCreateOposicionMockup;
   }
 }

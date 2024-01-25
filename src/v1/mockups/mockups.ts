@@ -173,8 +173,230 @@ const regionesMockup = {
   ]
 }
 
+const comunasMockup = {
+  "ok": true,
+  "msg": "Parametro encontrado",
+  "params": {
+    "codRegion": 5,
+    "nomRegion": "Valparaiso",
+    "provincias": [
+      {
+        "codProvincia": 1,
+        "nomProvincia": "Petorca",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "La Ligua"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "Petorca"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "Cabildo"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "Zapallar"
+          },
+          {
+            "codComuna": 5,
+            "nomComuna": "Papudo"
+          }
+        ]
+      },
+      {
+        "codProvincia": 2,
+        "nomProvincia": "Los Andes",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "Los Andes"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "San Esteban"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "Calle Larga"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "Rinconada"
+          }
+        ]
+      },
+      {
+        "codProvincia": 3,
+        "nomProvincia": "San Felipe",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "San Felipe"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "Putaendo"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "Santa Maria"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "Panquehue"
+          },
+          {
+            "codComuna": 5,
+            "nomComuna": "Llay-Llay"
+          },
+          {
+            "codComuna": 6,
+            "nomComuna": "Catemu"
+          }
+        ]
+      },
+      {
+        "codProvincia": 4,
+        "nomProvincia": "Quillota",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "Quillota"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "La Cruz"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "La Calera"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "Nogales"
+          },
+          {
+            "codComuna": 5,
+            "nomComuna": "Hijuelas"
+          }
+        ]
+      },
+      {
+        "codProvincia": 5,
+        "nomProvincia": "Valparaiso",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "Valparaiso"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "Viña del Mar"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "Quintero"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "Puchuncavi"
+          },
+          {
+            "codComuna": 7,
+            "nomComuna": "Casablanca"
+          },
+          {
+            "codComuna": 8,
+            "nomComuna": "Juan Fernandez"
+          },
+          {
+            "codComuna": 9,
+            "nomComuna": "Concon"
+          }
+        ]
+      },
+      {
+        "codProvincia": 6,
+        "nomProvincia": "San Antonio",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "San Antonio"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "Cartagena"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "El Tabo"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "El Quisco"
+          },
+          {
+            "codComuna": 5,
+            "nomComuna": "Algarrobo"
+          },
+          {
+            "codComuna": 6,
+            "nomComuna": "Santo Domingo"
+          }
+        ]
+      },
+      {
+        "codProvincia": 7,
+        "nomProvincia": "Isla De Pascua",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "Isla de Pascua"
+          }
+        ]
+      },
+      {
+        "codProvincia": 8,
+        "nomProvincia": "Marga Marga",
+        "comunas": [
+          {
+            "codComuna": 1,
+            "nomComuna": "Quilpue"
+          },
+          {
+            "codComuna": 2,
+            "nomComuna": "Villa Alemana"
+          },
+          {
+            "codComuna": 3,
+            "nomComuna": "Limache"
+          },
+          {
+            "codComuna": 4,
+            "nomComuna": "Olmue"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+const responseCreateOposicionMockup = {
+  "ok": true,
+  "msg": "Operacion realizada correctamente",
+  "codExpediente": "ND-1301-3837",
+  "resp": {
+    "idOposicion": 2
+  }
+}
+
 module.exports = {
     TipoPersonaMockup,
     getExpOposicionMockup,
-    regionesMockup
+    regionesMockup,
+    comunasMockup,
+    responseCreateOposicionMockup
 }
