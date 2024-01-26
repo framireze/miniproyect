@@ -393,10 +393,86 @@ const responseCreateOposicionMockup = {
   }
 }
 
+const expedientesMockup = {
+  "data": [
+    {
+      "codExpediente": "ND-0602-5511",
+      "idTipoExpediente": 1,
+      "estado": "P-REG",
+      "estadoADM": 2,
+      "estadoFirma": null,
+      "tipoFirma": 1,
+      "idTramiteOV": 15478,
+      "idTipoTramite": 10,
+      "fechaIngresoDP": null,
+      "fechaIngresoDGA": "28-12-2022",
+      "tecnico": "dga.admsnia4"
+    },
+    {
+      "codExpediente": "ND-0902-12763",
+      "idTipoExpediente": 1,
+      "estado": "P-REG",
+      "estadoADM": 2,
+      "estadoFirma": null,
+      "tipoFirma": 1,
+      "idTramiteOV": 15496,
+      "idTipoTramite": 2,
+      "fechaIngresoDP": null,
+      "fechaIngresoDGA": "2022-12-27",
+      "tecnico": "dga.admsnia3"
+    },
+    {
+      "codExpediente": "ND-0503-5046",
+      "idTipoExpediente": 1,
+      "estado": "P-REG",
+      "estadoADM": 2,
+      "estadoFirma": null,
+      "tipoFirma": 1,
+      "idTramiteOV": 15608,
+      "idTipoTramite": 1,
+      "fechaIngresoDP": null,
+      "fechaIngresoDGA": "2023-1-16",
+      "tecnico": null
+    },
+    {
+      "codExpediente": "ND-1304-2232",
+      "idTipoExpediente": 1,
+      "estado": "P-REG",
+      "estadoADM": 2,
+      "estadoFirma": null,
+      "tipoFirma": 1,
+      "idTramiteOV": 15639,
+      "idTipoTramite": 2,
+      "fechaIngresoDP": null,
+      "fechaIngresoDGA": "2023-1-19",
+      "tecnico": null
+    },
+    {
+      "codExpediente": "ND-1301-3726",
+      "idTipoExpediente": 1,
+      "estado": "P-REG",
+      "estadoADM": 2,
+      "estadoFirma": 3,
+      "tipoFirma": 1,
+      "idTramiteOV": 15642,
+      "idTipoTramite": 2,
+      "fechaIngresoDP": null,
+      "fechaIngresoDGA": "2023-1-19",
+      "tecnico": null
+    }
+  ],
+  "pagination": {
+    "pageNumber": 1,
+    "limit": 5,
+    "total": 71
+  }
+}
+
 module.exports = {
     TipoPersonaMockup,
     getExpOposicionMockup,
     regionesMockup,
     comunasMockup,
-    responseCreateOposicionMockup
+    responseCreateOposicionMockup,
+    expedientesMockup
 }
