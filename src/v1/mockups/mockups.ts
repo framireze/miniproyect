@@ -468,11 +468,150 @@ const expedientesMockup = {
   }
 }
 
+const tiposExpMockup = {
+  "ok": true,
+  "msg": "Parametro encontrado",
+  "params": {
+    "tipo": "TIPO-EXP",
+    "datos": [
+      {
+        "codigo": 1,
+        "glosa": "ND"
+      },
+      {
+        "codigo": 2,
+        "glosa": "NR"
+      },
+      {
+        "codigo": 3,
+        "glosa": "VT"
+      },
+      {
+        "codigo": 4,
+        "glosa": "VF"
+      },
+      {
+        "codigo": 5,
+        "glosa": "VPC"
+      },
+      {
+        "codigo": 6,
+        "glosa": "VUC"
+      },
+      {
+        "codigo": 7,
+        "glosa": "VFEI"
+      },
+      {
+        "codigo": 8,
+        "glosa": "VV"
+      },
+      {
+        "codigo": 9,
+        "glosa": "VP"
+      },
+      {
+        "codigo": 10,
+        "glosa": "VC"
+      },
+      {
+        "codigo": 11,
+        "glosa": "NE"
+      },
+      {
+        "codigo": 12,
+        "glosa": "NC"
+      },
+      {
+        "codigo": 13,
+        "glosa": "NJ"
+      },
+      {
+        "codigo": 14,
+        "glosa": "NA"
+      },
+      {
+        "codigo": 15,
+        "glosa": "VDA"
+      },
+      {
+        "codigo": 16,
+        "glosa": "VZP"
+      },
+      {
+        "codigo": 17,
+        "glosa": "VAR"
+      },
+      {
+        "codigo": 18,
+        "glosa": "UA"
+      },
+      {
+        "codigo": 19,
+        "glosa": "UC"
+      },
+      {
+        "codigo": 20,
+        "glosa": "EIA"
+      },
+      {
+        "codigo": 21,
+        "glosa": "DIA"
+      },
+      {
+        "codigo": 22,
+        "glosa": "DP"
+      },
+      {
+        "codigo": 23,
+        "glosa": "FD"
+      },
+      {
+        "codigo": 24,
+        "glosa": "FI"
+      },
+      {
+        "codigo": 25,
+        "glosa": "OC"
+      },
+      {
+        "codigo": 26,
+        "glosa": "OJ"
+      },
+      {
+        "codigo": 27,
+        "glosa": "OA"
+      },
+      {
+        "codigo": 29,
+        "glosa": "AR"
+      },
+      {
+        "codigo": 30,
+        "glosa": "USU"
+      },
+      {
+        "codigo": 31,
+        "glosa": "HIP"
+      },
+      {
+        "codigo": 32,
+        "glosa": "FO"
+      },
+      {
+        "codigo": 33,
+        "glosa": "DEN"
+      }
+    ]
+  }
+}
+
 module.exports = {
     TipoPersonaMockup,
     getExpOposicionMockup,
     regionesMockup,
     comunasMockup,
     responseCreateOposicionMockup,
-    expedientesMockup
+    expedientesMockup,
+    tiposExpMockup
 }

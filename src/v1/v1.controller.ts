@@ -36,4 +36,10 @@ export class V1Controller {
   createOpo(@Param('codExpediente') codExpediente: string, @Body() body: CreateOposicionDto) {
     return this.v1Service.createOposicion(codExpediente, body);
   }
+
+  
+  @Get('tipoExpediente')
+  getTypesExp() {
+    return this.v1Service.getTiposExpedientes();
+  }
 }

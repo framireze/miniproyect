@@ -30,4 +30,8 @@ export class V1Service {
   createOposicion(codExpediente: string, body: CreateOposicionDto) {
     return mockups.responseCreateOposicionMockup;
   }
+
+  getTiposExpedientes(){
+    return mockups.tiposExpMockup;
+  }
 }
